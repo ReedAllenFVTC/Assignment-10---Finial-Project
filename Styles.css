@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+#Wrapper{
+    width: 1000px;
+    margin: auto;
+}
+img{
+    border-radius: 10px;
+}
+#TopMenuBar{
+    background-color: #ffcc00;
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+#TopMenuBar li{
+    list-style: none;
+    padding: 0;
+}
+#TopMenuBar a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+#TopMenuBar a:hover{
+    color: #d62828;
+}
+section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 30px auto;
+    width: 800px;
+
+}
+#SectionSeperator, #WhereToFindUs, #BestSellingCarousel, #Reviews{
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+}
+div{
+    margin: auto;
+}
+h3{
+    margin: auto;
+    margin-top: 0;
+    color: #d62828;
+    text-align: center;
+}
+#Seperator{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #d62828;
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 6px 6px rgba(214, 40, 40,0.5);
+    width: 800px;
+    outline: solid 4px rgba(255, 204, 0,0.5);
+}
+p{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
