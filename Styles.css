@@ -69,6 +69,7 @@ iframe{
 }
 p{
     padding: 10px;
+    text-indent: 2em;
 }
 footer{
     text-align: center;
