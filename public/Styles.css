@@ -71,6 +71,46 @@ p{
     padding: 10px;
     text-indent: 2em;
 }
+h1{
+    text-align: center;
+    margin: auto;
+    color: #d62828;
+    font-size: 5em;
+}
+#menu{
+    width: 800px;
+    background-color: rgb(255, 233, 132);
+    border-radius: 20px;
+    border: #333 solid;
+    
+}
+#menu div{
+    padding: 20px;
+}
+.menu-card{
+    background-color: rgba(255, 255, 255, 0.519);
+    border-radius: 10px;
+    width: 750px;
+    height: auto;
+    border: #ff0000 dotted;
+}
+.menu-card p{
+    color: #d62828;
+}
+.menu-card h2{
+    color: white;
+    background-color: #ff0000;
+    padding: 4px;
+    border-radius: 5px;
+}
+.menu-card strong{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2px;
+    width: 100px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0,.5) 2px 2px;
+}
 footer{
     text-align: center;
     font-size: small;

@@ -1,41 +1,22 @@
-const express = require('express')
-const { request } = require('http')
-const app = express()
+const express = require('express');
+const app = express();
+const port = 3000;
 
+const path = require('path');
+const root = path.join(__dirname, 'public');
 
-
-const port = 3000
-
-app.use(express.json())
-
-const path = require('path')
-const root = path.join(__dirname, 'public')
-
-app.use(express.static('public'))
-
-app.get('/', (request,response) =>{
-    response.sendFile('index.html', {root})
-})
-
-app.get('/api/v1/random', (request, response) => {
-    const randomNumber = Math.floor(Math.random() * 100) + 1
-    response.send({randomNumber})
-})
-
-app.get('/api/v1/random-pokemon', (request, response) => {
-    const r = Math.floor(Math.random() * 9)
-    response.send(pokemon[r])
-})
+app.use(express.json());
+app.use(express.static('public'));
 
 app.get('/', (request, response) => {
-    response.send("Hello")
-    console.log('incoming request')
-})
+    response.sendFile('index.html', { root });
+});
 
-app.get('/test', (request, response) => {
-    response.send('hello from test route')
-})
+const menuRouter = require('./api/site');
+app.use('/menuItems', menuRouter);
 
-app.listen(port, () => console.log(`listening on port: ${port}`))
+app.get('/', (request, response) => {
+    response.sendFile('menu.html', { root });
+});
 
-//const db = connect('mongodb://localhost/foodtruck')
+app.listen(port, () => console.log(`✅ Listening on http://localhost:${port}`));
