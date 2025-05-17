@@ -1,0 +1,72 @@
+[
+  {
+    "menuId": 1,
+    "name": "Classic Nachos",
+    "description": "Tortilla chips topped with melted cheddar, jalapeños, and fresh salsa.",
+    "price": 7.99,
+    "tags": ["vegetarian", "classic"]
+  },
+  {
+    "menuId": 2,
+    "name": "Carne Asada Nachos",
+    "description": "Loaded with grilled steak, queso blanco, guacamole, and pico de gallo.",
+    "price": 10.99,
+    "tags": ["meat", "steak", "popular"]
+  },
+  {
+    "menuId": 3,
+    "name": "Buffalo Chicken Nachos",
+    "description": "Topped with buffalo chicken, ranch drizzle, and blue cheese crumbles.",
+    "price": 9.99,
+    "tags": ["spicy", "chicken"]
+  },
+  {
+    "menuId": 4,
+    "name": "BBQ Pulled Pork Nachos",
+    "description": "Slow-cooked pulled pork, BBQ sauce, pickled onions, and cheddar cheese.",
+    "price": 10.49,
+    "tags": ["bbq", "pork", "savory"]
+  },
+  {
+    "menuId": 5,
+    "name": "Veggie Supreme Nachos",
+    "description": "Loaded with black beans, corn, bell peppers, olives, and vegan cheese.",
+    "price": 8.99,
+    "tags": ["vegan", "vegetarian", "healthy"]
+  },
+  {
+    "menuId": 6,
+    "name": "Spicy Jalapeño Popper Nachos",
+    "description": "Cream cheese, crispy bacon bits, and sliced jalapeños on a bed of chips.",
+    "price": 9.49,
+    "tags": ["spicy", "bacon"]
+  },
+  {
+    "menuId": 7,
+    "name": "Breakfast Nachos",
+    "description": "Scrambled eggs, chorizo, cheese sauce, and breakfast potatoes.",
+    "price": 9.99,
+    "tags": ["breakfast", "chorizo"]
+  },
+  {
+    "menuId": 8,
+    "name": "Sweet Chili Brisket Nachos",
+    "description": "Brisket glazed with sweet chili sauce, drizzled with lime crema.",
+    "price": 11.99,
+    "tags": ["sweet", "brisket", "unique"]
+  },
+  {
+    "menuId": 9,
+    "name": "Mac & Cheese Nachos",
+    "description": "Creamy mac and cheese layered over nachos, topped with bacon bits.",
+    "price": 8.99,
+    "tags": ["comfort", "cheesy"]
+  },
+  {
+    "menuId": 10,
+    "name": "Street Corn Nachos",
+    "description": "Inspired by elote — roasted corn, cotija cheese, lime, and tajín.",
+    "price": 8.49,
+    "tags": ["mexican", "vegetarian", "street food"]
+  }
+]
